@@ -1,7 +1,10 @@
 # Readme
 This is a machine learning project. It is using data on fuel price, exhange rate and oil price to predict the fuel price in advance.
 
-# Areas to investigate
+## Status
+This is a work in progress; files are being consolidated here.
+
+## Areas to investigate
 1. Four ways to sync time series data https://towardsdatascience.com/four-ways-to-quantify-synchrony-between-time-series-data-b99136c4a9c9
 2. Mistakes not to make when syncing time series data https://www.linkedin.com/pulse/how-use-machine-learning-time-series-forecasting-vegard-flovik-phd-1f/?trk=related_artice_How%20(not)%20to%20use%20Machine%20Learning%20for%20time%20series%20forecasting%3A%20The%20sequel_article-card_title
 3. Masters thesis on good way to sync time series data https://pdfs.semanticscholar.org/8824/fb4ef14f94f96a9d6799551e99a612fa7cf3.pdf

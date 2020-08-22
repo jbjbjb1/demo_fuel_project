@@ -6,10 +6,9 @@ Using this docker image: https://hub.docker.com/r/continuumio/miniconda3
 
 ## Data sources
 * AUD_USD: https://au.investing.com/currencies/aud-usd-historical-data
-* [Archive] Brent Crude: https://datahub.io/core/oil-prices#data (else https://fred.stlouisfed.org/series/DCOILBRENTEU)
 * Crude WTI Spot price: https://www.eia.gov/dnav/pet/PET_PRI_SPT_S1_D.htm -> https://www.eia.gov/dnav/pet/hist/RWTCD.htm -> daily https://www.reuters.com/quote/CLc1
 * Fuelprices WA SoR: https://www.fuelwatch.wa.gov.au/fuelwatch/pages/public/historicalFileDownloadRetail.jspx
-* Singapore fuel price: https://www.barchart.com/futures/quotes/JV0Z15/price-history/historical
+* [Not used] Singapore fuel price: https://www.barchart.com/futures/quotes/JV0Z15/price-history/historical
 
 ## Info sources
 * What impacts fuel prices? https://www.accc.gov.au/consumers/petrol-diesel-lpg/about-fuel-prices

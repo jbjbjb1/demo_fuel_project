@@ -1,1 +1,2 @@
-webscrape/fuel_scrape_venv/
+daily_webscrape/fuel_scrape_venv/
+!daily_webscrape/fuel_scrape_venv/package.zip

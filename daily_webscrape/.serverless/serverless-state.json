@@ -159,7 +159,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/fuel-scrape/dev/1600952661048-2020-09-24T13:04:21.048Z/package.zip"
+                "S3Key": "serverless/fuel-scrape/dev/1600953186999-2020-09-24T13:13:06.999Z/package.zip"
               },
               "FunctionName": "fuel-scrape-dev-fuel-scrape",
               "Handler": "handler.scrape",
@@ -297,7 +297,7 @@
       },
       "package": {
         "artifact": "fuel_scrape_venv/package.zip",
-        "artifactDirectoryName": "serverless/fuel-scrape/dev/1600952661048-2020-09-24T13:04:21.048Z"
+        "artifactDirectoryName": "serverless/fuel-scrape/dev/1600953186999-2020-09-24T13:13:06.999Z"
       },
       "functions": {
         "$ref": "$[\"service\"][\"functions\"]"
@@ -306,7 +306,7 @@
     "isDashboardMonitoringPreconfigured": false
   },
   "package": {
-    "artifactDirectoryName": "serverless/fuel-scrape/dev/1600952661048-2020-09-24T13:04:21.048Z",
+    "artifactDirectoryName": "serverless/fuel-scrape/dev/1600953186999-2020-09-24T13:13:06.999Z",
     "artifact": "package.zip"
   }
 }

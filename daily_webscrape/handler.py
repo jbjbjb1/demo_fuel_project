@@ -23,18 +23,6 @@ def get_fuel_price():
   return str(price)                   # str for dynamoDB
 
 
-def get_oil_price():
-  product_url = 'https://www.tradingview.com/symbols/NYMEX-AV02%21/'
-  driver = webdriver.Firefox()
-  driver.get(product_url)           
-  html = driver.page_source
-  soup = bs.BeautifulSoup(html)
-  elems = soup.find("div", class_="tv-symbol-price-quote__value js-symbol-last")
-  print(elems.text)
-  price = float(elems[0].text)/100    # in SGD
-  return str(price)                   # str for dynamoDB
-
-
 def get_sgd_price():
   product_url = 'https://www.rba.gov.au/statistics/frequency/exchange-rates.html'
   res = requests.get(product_url)

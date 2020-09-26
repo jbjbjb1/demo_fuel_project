@@ -5,6 +5,10 @@ This is a machine learning project. It is using data on fuel price, exhange rate
 * SINGAPORE MOGAS 95 UNLEADED - https://www.tradingview.com/symbols/NYMEX-AV02%21/
 * Singapore exchange rate - https://www.rba.gov.au/statistics/frequency/exchange-rates.html
 * South of river, Perth, best ULP fuel price - https://www.fuelwatch.wa.gov.au/fuelwatch/pages/home.jspx
+* [maybe] Brent oil price
+* [maybe] WTI oil price
+* [maybe] NY harbour gasoline oil price
+* [maybe] AUD-USD exchange rate as oil is traded in this too
 
 ## Info sources on factors impacting fuel price
 * What impacts fuel prices? https://www.accc.gov.au/consumers/petrol-diesel-lpg/about-fuel-prices
@@ -19,7 +23,9 @@ This is a machine learning project. It is using data on fuel price, exhange rate
 6. Maybe the seasonal/weekly trends have to be removed from the data before using the comparisons etc.a
 
 ## More data sources
-* AUD_USD: https://au.investing.com/currencies/aud-usd-historical-data
-* Crude WTI Spot price: https://www.eia.gov/dnav/pet/PET_PRI_SPT_S1_D.htm -> https://www.eia.gov/dnav/pet/hist/RWTCD.htm -> daily https://www.reuters.com/quote/CLc1
+* AUD/SGD: https://au.investing.com/currencies/aud-usd-historical-data
+* AUD/SGD: https://au.investing.com/currencies/aud-sgd-historical-data
+* Brent Oil: https://www.eia.gov/dnav/pet/hist/RBRTED.htm
+* WTI Oil: https://www.eia.gov/dnav/pet/hist/RWTCD.htm
+* For daily oil prices: https://www.reuters.com/quote/CLc1
 * Fuelprices WA SoR: https://www.fuelwatch.wa.gov.au/fuelwatch/pages/public/historicalFileDownloadRetail.jspx
-* [Not used] Singapore fuel price: https://www.barchart.com/futures/quotes/JV0Z15/price-history/historical

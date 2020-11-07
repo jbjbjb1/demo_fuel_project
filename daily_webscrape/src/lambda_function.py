@@ -21,7 +21,7 @@ def lambda_handler(*args, **kwargs):
     date_now = str(datetime.datetime.now())
     data = {'Date':date_now, 'fuel_price':fuel_price, 'sgd_price':sgd_price, 'oil_price':oil_price}
     tablename = "fuelprice_data_table"
-    #save_price_db(tablename, data)
+    save_price_db(tablename, data)
     
     return data
     

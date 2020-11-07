@@ -1,2 +1,3 @@
-daily_webscrape/fuel_scrape_venv/
-!daily_webscrape/fuel_scrape_venv/package.zip
+daily_webscrape/bin
+daily_webscrape/build.zip
+daily_webscrape/src/__pycache__

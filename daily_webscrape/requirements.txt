@@ -1,0 +1,5 @@
+selenium==2.53.0
+chromedriver-binary==2.37.0
+BeautifulSoup4==4.9.3
+boto3==1.16.13
+requests

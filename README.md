@@ -1,6 +1,14 @@
 # Readme
 This is a machine learning project. It is using data on fuel price, exhange rate and oil price to predict the fuel price in advance.
 
+## Progress
+* I have an active web scraper collecting the 3 main sources of data (see below). See folder /daily_webscrape for details of this.
+
+## Next steps
+* Create machine learning algorithm to predicte fuel price
+* Run this on lambda weekly
+* Create a user friendly. page that is updated weekly based on the above
+
 ## Sources of data:
 * SINGAPORE MOGAS 95 UNLEADED - https://www.tradingview.com/symbols/NYMEX-AV02%21/
 * Singapore exchange rate - https://www.rba.gov.au/statistics/frequency/exchange-rates.html
